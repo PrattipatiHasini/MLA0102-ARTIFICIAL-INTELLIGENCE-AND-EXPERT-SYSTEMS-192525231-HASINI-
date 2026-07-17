@@ -1,0 +1,24 @@
+START
+
+Input the graph
+Input the starting vertex
+
+Create an empty queue
+Mark all vertices as not visited
+
+Mark the starting vertex as visited
+Insert the starting vertex into the queue
+
+WHILE queue is not empty DO
+    Remove the front vertex from the queue
+    Display the vertex
+
+    FOR each adjacent vertex DO
+        IF the vertex is not visited THEN
+            Mark it as visited
+            Insert it into the queue
+        END IF
+    END FOR
+END WHILE
+
+STOP

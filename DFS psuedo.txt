@@ -1,0 +1,21 @@
+START
+
+Input the graph
+Input the starting vertex
+
+Mark all vertices as not visited
+
+Call DFS(start)
+
+Procedure DFS(vertex)
+    Mark the vertex as visited
+    Display the vertex
+
+    FOR each adjacent vertex DO
+        IF the vertex is not visited THEN
+            Call DFS(adjacent vertex)
+        END IF
+    END FOR
+END Procedure
+
+STOP
