@@ -1,0 +1,18 @@
+Greedy Best First Search
+START
+
+Create a priority queue
+Insert start node
+
+WHILE queue is not empty DO
+    Select node with lowest heuristic
+    Print node
+
+    IF node is goal THEN
+        Stop
+    END IF
+
+    Add all unvisited neighbours
+END WHILE
+
+STOP

@@ -1,0 +1,23 @@
+A Star Search Algorithm Pseudocode
+START
+
+Create a priority queue
+Insert source node with f(n) = g(n) + h(n)
+
+WHILE priority queue is not empty DO
+    Remove node with lowest f(n)
+
+    IF node is goal THEN
+        Stop
+    END IF
+
+    FOR each neighbour DO
+        g = path cost
+        h = heuristic value
+        f = g + h
+
+        Insert neighbour with f
+    END FOR
+END WHILE
+
+STOP
