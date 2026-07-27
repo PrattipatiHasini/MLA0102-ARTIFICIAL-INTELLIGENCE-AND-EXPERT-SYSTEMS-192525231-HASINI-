@@ -1,0 +1,22 @@
+START
+
+Read capacity of Jug A
+Read capacity of Jug B
+Read target amount
+
+Set both jugs to 0
+
+Repeat until target is reached
+
+    If Jug A is empty
+        Fill Jug A
+
+    Else if Jug B is full
+        Empty Jug B
+
+    Else
+        Pour water from Jug A to Jug B
+
+Display "Target reached"
+
+STOP

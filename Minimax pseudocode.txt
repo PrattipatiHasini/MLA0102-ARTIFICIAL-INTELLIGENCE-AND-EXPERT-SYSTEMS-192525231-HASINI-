@@ -1,0 +1,16 @@
+START
+
+Read number of leaf nodes
+
+Read leaf node values
+
+Repeat until one value remains
+    Compare every two values
+    Select the smaller value (MIN)
+
+    Compare the remaining values
+    Select the larger value (MAX)
+
+Display the final value
+
+STOP

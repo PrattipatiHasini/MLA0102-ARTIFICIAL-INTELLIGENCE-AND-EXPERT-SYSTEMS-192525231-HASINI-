@@ -1,0 +1,17 @@
+START
+
+Read 4 leaf node values
+
+Set Alpha = -∞
+Set Beta = +∞
+
+Find maximum of first two values
+Update Alpha
+
+Find maximum of last two values
+
+Find minimum of the two maximum values
+
+Display the result
+
+STOP
