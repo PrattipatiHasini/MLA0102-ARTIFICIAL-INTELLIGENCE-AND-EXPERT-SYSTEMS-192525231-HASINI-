@@ -1,0 +1,14 @@
+Tower of Hanoi pseudo code
+Algorithm TowerOfHanoi(n, Source, Auxiliary, Destination)
+
+If n = 1
+    Print "Move Disk 1 from Source to Destination"
+    Return
+
+TowerOfHanoi(n-1, Source, Destination, Auxiliary)
+
+Print "Move Disk n from Source to Destination"
+
+TowerOfHanoi(n-1, Auxiliary, Source, Destination)
+
+End
